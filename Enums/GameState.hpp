@@ -1,0 +1,8 @@
+#ifndef TETRIS_GAMESTATE_HPP
+#define TETRIS_GAMESTATE_HPP
+
+enum class GameState {
+    PAUSED, RUNNING, GAME_OVER, EXCEPTION, QUIT
+};
+
+#endif //TETRIS_GAMESTATE_HPP
